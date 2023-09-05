@@ -14,11 +14,11 @@ public class WeatherActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-         setContentView(R.layout.activity_weather);
-          //WeatherFragment firstFragment = new WeatherFragment();
-          //getSupportFragmentManager().beginTransaction().add(R.id.weather_frag, firstFragment).commit();
-          //ForecastFragment secondFragment = new ForecastFragment();
-         //getSupportFragmentManager().beginTransaction().add(R.id.forecast_frag,secondFragment).commit();
+        setContentView(R.layout.activity_weather);
+        //WeatherFragment firstFragment = new WeatherFragment();
+        //getSupportFragmentManager().beginTransaction().add(R.id.weather_frag, firstFragment).commit();
+        //ForecastFragment secondFragment = new ForecastFragment();
+        //getSupportFragmentManager().beginTransaction().add(R.id.forecast_frag,secondFragment).commit();
         Log.i(TAG, "onCreate: This is a log message");
     }
 
